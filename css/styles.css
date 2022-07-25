@@ -1,0 +1,340 @@
+/** @format */
+
+body {
+  background-color: #f1f1f1;
+  font-size: 20px;
+}
+
+h2 {
+  color: black;
+}
+
+/* the code for the nav bar */
+
+* {
+  box-sizing: border-box;
+}
+.topnav {
+  overflow: hidden;
+  position: relative;
+  top: -10px;
+  text-align: right;
+  background-color: #282a35;
+}
+
+.column {
+  height: max-content;
+  color: #282a35;
+  background-color: #282a35;
+  flex: 25%;
+  padding: 10px;
+}
+
+.row {
+  background-color: #282a35;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+    font-size: 20px;
+  }
+}
+
+.topnav a {
+  text-decoration: none;
+  color: #f1f1f1;
+  text-align: center;
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 14px 16px;
+  box-sizing: border-box;
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+/* media queries to make it responsive
+  for screen less than 600px, make the menu links
+  stack on top each other.
+  */
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    width: 100%;
+    float: none;
+  }
+}
+/* Markeing */
+.marketing {
+  padding: 36px 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+}
+.reponsive {
+  margin-top: 0;
+}
+/*drinking-coffee */
+.drinking-coffee img {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+.column1 {
+  background-color: #ccc;
+   color: #282a35; 
+   line-height: 2"
+}
+
+/* what we offer */
+.whatweoffer {
+  text-align: center;
+  margin: 50px 0 30px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Pricing */
+
+.pricing {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  font-size: larger;
+  padding-top: 40px;
+}
+
+.list {
+  padding: 20px;
+}
+
+ol li {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid rgb(199, 194, 194);
+}
+
+ol {
+  text-align: center;
+  text-decoration: none;
+}
+
+.basic {
+  font-size: larger;
+  font-weight: bold;
+  background-color: #282a35;
+  color: #f1f1f1;
+}
+
+.signupbtn {
+  background-color: rgb(49, 211, 34);
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+li :hover {
+  background-color: aqua;
+}
+
+.signup {
+  background-color: #ccc;
+}
+
+/* responsive pricing section */
+
+.price {
+  width: 100%;
+  float: left;
+}
+
+@media screen and (min-width: 600px) {
+  .price {
+    width: 33%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .price {
+    width: 33%;
+    float: left;
+  }
+}
+
+/* reponsive Images */
+
+.roww {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.columnn img {
+  vertical-align: middle;
+  margin-top: 8px;
+}
+
+/* media queries for responsive image grid */
+@media screen and (min-width: 600px) {
+  .columnn {
+    width: 33%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .columnn {
+    width: 33%;
+    float: left;
+  }
+}
+
+/* Contact button */
+.contactbtn {
+  padding: 10px;
+  display: block;
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 8px;
+  background-color: #282a35;
+  text-decoration: none;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.contactbtn:hover {
+  background-color: gray;
+  color: #f1f1f1;
+}
+
+/* contact Section */
+
+.contactus {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+input[type="text"] {
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+}
+input[type="text"]:focus {
+  border: 1px solid grey;
+  background: lightblue;
+}
+
+input[type="text"]:hover {
+  filter: drop-shadow(10px 5px 10px rgb(63, 45, 21));
+}
+
+input[type="email"] {
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+}
+input[type="email"]:focus {
+  border: 1px solid grey;
+  background: lightblue;
+}
+.email {
+  text-align: left;
+  margin: auto;
+}
+.formdiv {
+  text-align: left;
+}
+
+.sendbtn {
+  padding: 10px;
+  border-radius: 8px;
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #282a35;
+  color: #f1f1f1;
+}
+
+.sendbtn:hover {
+  background-color: grey;
+  color: #f1f1f1;
+}
+/* Footer Section */
+.footer {
+  background-color: #282a35;
+  text-align: center;
+  margin: left;
+  margin: auto;
+  height: 200px;
+  border: none;
+  padding: 5px;
+  margin-top: 50px;
+  width: 100%;
+  color: #f1f1f1;
+  position: relative;
+  top: 30px;
+  min-height: 20vh;
+}
+
+.footerparagraph {
+  align-content: center;
+}
+
+.footerdiv {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  justify-content: center;
+}
+
+.footerdiv a {
+  padding-right: 10px;
+  margin-right: 5px;
+}
+.undercoffediv {
+  height: 30px;
+  padding: 5px 10px;
+  width: 100%;
+  background-color: rgb(214, 208, 208);
+}
+.onclick1 {
+  position: absolute;
+  left: 0;
+  padding-left: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+.arrowright {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.faicon {
+  width: 50%;
+  height: inherit;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+input[type="email"]:hover {
+  filter: drop-shadow(10px 10px 5px rgb(68, 44, 32));
+}
