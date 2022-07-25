@@ -82,6 +82,7 @@ h2 {
 }
 .reponsive {
   margin-top: 0;
+  margin-bottom:150px;
 }
 /*drinking-coffee */
 .drinking-coffee img {
@@ -99,7 +100,7 @@ h2 {
 /* what we offer */
 .whatweoffer {
   text-align: center;
-  margin: 50px 0 30px 0;
+  margin: 150px 0 30px 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -108,7 +109,7 @@ h2 {
 .pricing {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
-  margin: 0;
+  margin: 100px 0 10px 0;
   font-size: larger;
   padding-top: 40px;
 }
